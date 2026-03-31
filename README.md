@@ -10,7 +10,7 @@ This is an Intership Assignment Project
 - Chart visualization with Chart.js
 - Bonus: Volatility & Moving Average
 
-## 🔌 API Endpoints
+## 🔌 API Endpoint
 - /companies
 - /data/{symbol}
 - /summary/{symbol}
