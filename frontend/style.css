@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f6f8;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+canvas {
+    width: 80% !important;
+    max-width: 900px;
+    margin-top: 20px;
+}

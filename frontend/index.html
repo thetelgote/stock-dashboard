@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>📊 Stock Dashboard</h2>
+
+<select id="company1">
+    <option value="INFY">INFY</option>
+    <option value="TCS">TCS</option>
+    <option value="RELIANCE">RELIANCE</option>
+</select>
+
+<select id="company2">
+    <option value="TCS">TCS</option>
+    <option value="INFY">INFY</option>
+    <option value="RELIANCE">RELIANCE</option>
+</select>
+
+<button onclick="loadData()">Single Stock</button>
+<button onclick="compareData()">Compare</button>
+
+<canvas id="chart"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
